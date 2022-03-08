@@ -6,11 +6,12 @@ for n in range(0, len(student_heights)):
 
 
 #Write your code below this row 👇
+# find total heights added
 total_height = 0
 for height in student_heights:
     total_height += height
 # print(total_height)
-
+# find number of students
 number_of_students = 0
 for student in student_heights:
     number_of_students += 1
